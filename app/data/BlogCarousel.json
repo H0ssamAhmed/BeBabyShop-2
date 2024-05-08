@@ -1,0 +1,37 @@
+[
+  {
+    "image": "/assets/blog/babyshop2-blog-pic1.webp",
+    "title": "Proin eros si semper tempor mus per sapien velit",
+    "description": "In fusce a pellentesque neque urna consectetur consectetur odio. Dignissim congue massa arcu varius sapien integer gravida. Blandit amet etiam vel aenean eget.",
+    "group": "Muffin Group",
+    "data": "December 4, 2023"
+  },
+  {
+    "image": "/assets/blog/babyshop2-blog-pic2.webp",
+    "title": "Mattis nunc orci convallis est ligula potenti gravida molestie",
+    "description": "In fusce a pellentesque neque urna consectetur consectetur odio. Dignissim congue massa arcu varius sapien integer gravida. Blandit amet etiam vel aenean eget.",
+    "group": "Muffin Group",
+    "data": "December 5, 2023"
+  },
+  {
+    "image": "/assets/blog/babyshop2-blog-pic3.webp",
+    "title": "Integer a nascetur faucibus nec dolor amet mattis    ",
+    "description": "In fusce a pellentesque neque urna consectetur consectetur odio. Dignissim congue massa arcu varius sapien integer gravida. Blandit amet etiam vel aenean eget.",
+    "group": "Muffin Group",
+    "data": "December 7, 2023"
+  },
+  {
+    "image": "/assets/blog/babyshop2-blog-pic4.webp",
+    "title": "Gravida eu eget leo curabitur vehicula dolor imperdiet    ",
+    "description": "In fusce a pellentesque neque urna consectetur consectetur odio. Dignissim congue massa arcu varius sapien integer gravida. Blandit amet etiam vel aenean eget.",
+    "group": "Muffin Group",
+    "data": "December 4, 2023"
+  },
+  {
+    "image": "/assets/blog/babyshop2-blog-pic5.webp",
+    "title": "Proin eros si semper tempor mus per sapien velit",
+    "description": "In fusce a pellentesque neque urna consectetur consectetur odio. Dignissim congue massa arcu varius sapien integer gravida. Blandit amet etiam vel aenean eget.",
+    "group": "Muffin Group",
+    "data": "December 4, 2023"
+  }
+]

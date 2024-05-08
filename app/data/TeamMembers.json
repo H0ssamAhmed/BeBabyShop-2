@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Joanna Haze",
+        "title": "Sales manager",
+        "image": "https://res.cloudinary.com/dc5eb9lmi/image/upload/v1711396860/babyshop2-team-pic3_s6uozw.webp"
+    },
+    {
+        "name": "Veronika Loop",
+        "title": "CEO",
+        "image": "https://res.cloudinary.com/dc5eb9lmi/image/upload/v1711396863/babyshop2-team-pic1_ma0a6o.webp"
+    },
+    {
+        "name": "Monique Beaulieu",
+        "title": "Sales manager",
+        "image": "https://res.cloudinary.com/dc5eb9lmi/image/upload/v1711396863/babyshop2-team-pic2_w02nh9.webp"
+    }
+]

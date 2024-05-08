@@ -1,0 +1,23 @@
+[
+    {
+        "header": "Amazing collection!",
+        "opinion": "Et fames vulputate leo condimentum in lacus morbi orci congue aliquam feugiat laoreet finibus pede litora torquent quam diam sed bibendum mauris interdum faucibus phasellus mattis per tellus nec massa letius vivamusS",
+        "title": "CTO, Incognito",
+        "name": "Amoureth Johnson",
+        "image": "/assets/testimonial/babyshop2-testimonials-pic1.webp"
+    },
+    {
+        "header": "Good Materials!",
+        "opinion": "Euismod litora tempus suspendisse amet morbi ex lobortis arcu lectus mi nam auctor faucibus himenaeos quam integer pede si nullam venenatis lacus maximus fusce suscipit sem ullamcorper laoreet accumsan",
+        "title": "CEO, RedBook",
+        "name": "Adeleide Kennington",
+        "image": "/assets/testimonial/babyshop2-testimonials-pic2.webp"
+    },
+    {
+        "header": "Great Projects!",
+        "opinion": "Felis dictum dictumst senectus ex at vel et dui donec lectus suscipit ut quisque taciti hac nunc vitae adipiscing magnis mattis risus hendrerit rhoncus pellentesque per velit nam massa posuere proin interdum",
+        "title": "Old, Ghost",
+        "name": "Monique Chamberlain",
+        "image": "/assets/testimonial/babyshop2-testimonials-pic3.webp"
+    }
+]

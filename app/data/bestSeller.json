@@ -1,0 +1,371 @@
+{
+    "products": [
+        {
+            "name": "Cardigan longsleeve",
+            "description": "Vehicula quisque mollis senectus sit viverra si fames molestie nibh dui ultrices quis sodales orci mi turpis neque aptent et felis vitae at pretium vestibulum malesuada nisl himenaeos",
+            "sizes": [
+                {
+                    "size": "0-1",
+                    "price": 66,
+                    "colors": [
+                        {
+                            "name": "postal red",
+                            "hex": "DA291C",
+                            "quantity": 2,
+                            "_id": "65f9f990fc35a0f2df8dc726"
+                        },
+                        {
+                            "name": "green",
+                            "hex": "808080",
+                            "quantity": 3,
+                            "_id": "65f9f990fc35a0f2df8dc727"
+                        },
+                        {
+                            "name": "graphite",
+                            "hex": "41424C",
+                            "quantity": 6,
+                            "_id": "65f9f990fc35a0f2df8dc728"
+                        }
+                    ],
+                    "_id": "65f9f990fc35a0f2df8dc725"
+                },
+                {
+                    "size": "1-2",
+                    "price": 66,
+                    "colors": [
+                        {
+                            "name": "postal red",
+                            "hex": "DA291C",
+                            "quantity": 2,
+                            "_id": "65f9f990fc35a0f2df8dc72a"
+                        },
+                        {
+                            "name": "green",
+                            "hex": "808080",
+                            "quantity": 3,
+                            "_id": "65f9f990fc35a0f2df8dc72b"
+                        },
+                        {
+                            "name": "graphite",
+                            "hex": "41424C",
+                            "quantity": 6,
+                            "_id": "65f9f990fc35a0f2df8dc72c"
+                        }
+                    ],
+                    "_id": "65f9f990fc35a0f2df8dc729"
+                },
+                {
+                    "size": "2-3",
+                    "price": 66,
+                    "colors": [
+                        {
+                            "name": "postal red",
+                            "hex": "DA291C",
+                            "quantity": 2,
+                            "_id": "65f9f990fc35a0f2df8dc72e"
+                        },
+                        {
+                            "name": "green",
+                            "hex": "808080",
+                            "quantity": 3,
+                            "_id": "65f9f990fc35a0f2df8dc72f"
+                        },
+                        {
+                            "name": "graphite",
+                            "hex": "41424C",
+                            "quantity": 6,
+                            "_id": "65f9f990fc35a0f2df8dc730"
+                        }
+                    ],
+                    "_id": "65f9f990fc35a0f2df8dc72d"
+                }
+            ],
+            "slug": "cardigan-longsleeve",
+            "images": [
+                {
+                    "secure_url": "https://res.cloudinary.com/dqv9yvba1/image/upload/v1710881261/competition_ecommerce-1/categories/dresses-and-suits_lSeS2/products/cardigan-longsleeve_8bx7r/bd6vwmzunzgvsdpz9m3m.webp",
+                    "public_id": "competition_ecommerce-1/categories/dresses-and-suits_lSeS2/products/cardigan-longsleeve_8bx7r/bd6vwmzunzgvsdpz9m3m",
+                    "_id": "65f9f9ecfc35a0f2df8dc742"
+                }
+            ]
+        },
+        {
+            "name": "Girl blouse",
+            "description": "Aptent penatibus dolor netus vulputate convallis egestas rutrum non sodales bibendum torquent mattis nostra curae nascetur felis conubia mauris congue enim fringilla pulvinar sem vivamus lectus",
+            "sizes": [
+                {
+                    "size": "0-1",
+                    "price": 38,
+                    "colors": [
+                        {
+                            "name": "postal red",
+                            "hex": "DA291C",
+                            "quantity": 2,
+                            "_id": "65f9fa18fc35a0f2df8dc747"
+                        },
+                        {
+                            "name": "white",
+                            "hex": "fff",
+                            "quantity": 3,
+                            "_id": "65f9fa18fc35a0f2df8dc748"
+                        },
+                        {
+                            "name": "yellow",
+                            "hex": "FFFF00",
+                            "quantity": 6,
+                            "_id": "65f9fa18fc35a0f2df8dc749"
+                        }
+                    ],
+                    "_id": "65f9fa18fc35a0f2df8dc746"
+                },
+                {
+                    "size": "1-2",
+                    "price": 44,
+                    "colors": [
+                        {
+                            "name": "postal red",
+                            "hex": "DA291C",
+                            "quantity": 2,
+                            "_id": "65f9fa18fc35a0f2df8dc74b"
+                        },
+                        {
+                            "name": "white",
+                            "hex": "fff",
+                            "quantity": 3,
+                            "_id": "65f9fa18fc35a0f2df8dc74c"
+                        },
+                        {
+                            "name": "yellow",
+                            "hex": "FFFF00",
+                            "quantity": 6,
+                            "_id": "65f9fa18fc35a0f2df8dc74d"
+                        }
+                    ],
+                    "_id": "65f9fa18fc35a0f2df8dc74a"
+                },
+                {
+                    "size": "2-3",
+                    "price": 46,
+                    "colors": [
+                        {
+                            "name": "postal red",
+                            "hex": "DA291C",
+                            "quantity": 2,
+                            "_id": "65f9fa18fc35a0f2df8dc74f"
+                        },
+                        {
+                            "name": "white",
+                            "hex": "fff",
+                            "quantity": 3,
+                            "_id": "65f9fa18fc35a0f2df8dc750"
+                        },
+                        {
+                            "name": "yellow",
+                            "hex": "FFFF00",
+                            "quantity": 6,
+                            "_id": "65f9fa18fc35a0f2df8dc751"
+                        }
+                    ],
+                    "_id": "65f9fa18fc35a0f2df8dc74e"
+                }
+            ],
+            "slug": "girl-blouse",
+            "images": [
+                {
+                    "secure_url": "https://res.cloudinary.com/dqv9yvba1/image/upload/v1710881330/competition_ecommerce-1/categories/dresses-and-suits_lSeS2/products/girl-blouse_NCDBQ/t85kkowxfhkizcps9edj.webp",
+                    "public_id": "competition_ecommerce-1/categories/dresses-and-suits_lSeS2/products/girl-blouse_NCDBQ/t85kkowxfhkizcps9edj",
+                    "_id": "65f9fa33fc35a0f2df8dc761"
+                },
+                {
+                    "secure_url": "https://res.cloudinary.com/dqv9yvba1/image/upload/v1710881332/competition_ecommerce-1/categories/dresses-and-suits_lSeS2/products/girl-blouse_NCDBQ/vunswkwtf64adfk7n56f.webp",
+                    "public_id": "competition_ecommerce-1/categories/dresses-and-suits_lSeS2/products/girl-blouse_NCDBQ/vunswkwtf64adfk7n56f",
+                    "_id": "65f9fa33fc35a0f2df8dc762"
+                }
+            ]
+        },
+        {
+            "name": "Sleeveless Cardigan",
+            "description": "Curae donec amet duis euismod nisl etiam mus proin a fames praesent orci tortor non vel",
+            "sizes": [
+                {
+                    "size": "0-1",
+                    "price": 32,
+                    "colors": [
+                        {
+                            "name": "green",
+                            "hex": "00FF00",
+                            "quantity": 2,
+                            "_id": "65f9fa45fc35a0f2df8dc767"
+                        },
+                        {
+                            "name": "grey",
+                            "hex": "808080",
+                            "quantity": 3,
+                            "_id": "65f9fa45fc35a0f2df8dc768"
+                        },
+                        {
+                            "name": "yellow",
+                            "hex": "FFFF00",
+                            "quantity": 6,
+                            "_id": "65f9fa45fc35a0f2df8dc769"
+                        },
+                        {
+                            "name": "graphite",
+                            "hex": "41424C",
+                            "quantity": 6,
+                            "_id": "65f9fa45fc35a0f2df8dc76a"
+                        }
+                    ],
+                    "_id": "65f9fa45fc35a0f2df8dc766"
+                },
+                {
+                    "size": "1-2",
+                    "price": 34,
+                    "colors": [
+                        {
+                            "name": "green",
+                            "hex": "00FF00",
+                            "quantity": 2,
+                            "_id": "65f9fa45fc35a0f2df8dc76c"
+                        },
+                        {
+                            "name": "grey",
+                            "hex": "808080",
+                            "quantity": 3,
+                            "_id": "65f9fa45fc35a0f2df8dc76d"
+                        },
+                        {
+                            "name": "yellow",
+                            "hex": "FFFF00",
+                            "quantity": 6,
+                            "_id": "65f9fa45fc35a0f2df8dc76e"
+                        },
+                        {
+                            "name": "graphite",
+                            "hex": "41424C",
+                            "quantity": 6,
+                            "_id": "65f9fa45fc35a0f2df8dc76f"
+                        }
+                    ],
+                    "_id": "65f9fa45fc35a0f2df8dc76b"
+                },
+                {
+                    "size": "2-3",
+                    "price": 38,
+                    "colors": [
+                        {
+                            "name": "yellow",
+                            "hex": "FFFF00",
+                            "quantity": 6,
+                            "_id": "65f9fa45fc35a0f2df8dc771"
+                        },
+                        {
+                            "name": "graphite",
+                            "hex": "41424C",
+                            "quantity": 6,
+                            "_id": "65f9fa45fc35a0f2df8dc772"
+                        }
+                    ],
+                    "_id": "65f9fa45fc35a0f2df8dc770"
+                }
+            ],
+            "slug": "sleeveless-cardigan",
+            "images": [
+                {
+                    "secure_url": "https://res.cloudinary.com/dqv9yvba1/image/upload/v1710881374/competition_ecommerce-1/categories/dresses-and-suits_lSeS2/products/sleeveless-cardigan_kzFpu/ep0pf4wwbfzfwtnyvndi.webp",
+                    "public_id": "competition_ecommerce-1/categories/dresses-and-suits_lSeS2/products/sleeveless-cardigan_kzFpu/ep0pf4wwbfzfwtnyvndi",
+                    "_id": "65f9fa5efc35a0f2df8dc783"
+                }
+            ]
+        },
+        {
+            "name": "Sweater",
+            "description": "Curabitur duis magnis conubia nec potenti blandit malesuada ligula id cras dui mauris tellus faucibus morbi natoque dictum amet convallis ante",
+            "sizes": [
+                {
+                    "size": "62/68cm",
+                    "price": 142,
+                    "colors": [
+                        {
+                            "name": "green",
+                            "hex": "00FF00",
+                            "quantity": 2,
+                            "_id": "65f9fa874904a0220e6c8f55"
+                        },
+                        {
+                            "name": "grey",
+                            "hex": "808080",
+                            "quantity": 3,
+                            "_id": "65f9fa874904a0220e6c8f56"
+                        },
+                        {
+                            "name": "postal red",
+                            "hex": "DA291C",
+                            "quantity": 2,
+                            "_id": "65f9fa874904a0220e6c8f57"
+                        }
+                    ],
+                    "_id": "65f9fa874904a0220e6c8f54"
+                },
+                {
+                    "size": "74/80cm",
+                    "price": 146,
+                    "colors": [
+                        {
+                            "name": "green",
+                            "hex": "00FF00",
+                            "quantity": 2,
+                            "_id": "65f9fa874904a0220e6c8f59"
+                        },
+                        {
+                            "name": "grey",
+                            "hex": "808080",
+                            "quantity": 3,
+                            "_id": "65f9fa874904a0220e6c8f5a"
+                        },
+                        {
+                            "name": "postal red",
+                            "hex": "DA291C",
+                            "quantity": 2,
+                            "_id": "65f9fa874904a0220e6c8f5b"
+                        }
+                    ],
+                    "_id": "65f9fa874904a0220e6c8f58"
+                },
+                {
+                    "size": "86/92cm",
+                    "price": 152,
+                    "colors": [
+                        {
+                            "name": "green",
+                            "hex": "00FF00",
+                            "quantity": 2,
+                            "_id": "65f9fa874904a0220e6c8f5d"
+                        },
+                        {
+                            "name": "grey",
+                            "hex": "808080",
+                            "quantity": 3,
+                            "_id": "65f9fa874904a0220e6c8f5e"
+                        },
+                        {
+                            "name": "postal red",
+                            "hex": "DA291C",
+                            "quantity": 2,
+                            "_id": "65f9fa874904a0220e6c8f5f"
+                        }
+                    ],
+                    "_id": "65f9fa874904a0220e6c8f5c"
+                }
+            ],
+            "slug": "sweater",
+            "images": [
+                {
+                    "secure_url": "https://res.cloudinary.com/dqv9yvba1/image/upload/v1710881431/competition_ecommerce-1/categories/dresses-and-suits_lSeS2/products/sweater_d4lwi/exbukv9tutwpuek15wwh.webp",
+                    "public_id": "competition_ecommerce-1/categories/dresses-and-suits_lSeS2/products/sweater_d4lwi/exbukv9tutwpuek15wwh",
+                    "_id": "65f9fa974904a0220e6c8f6f"
+                }
+            ]
+        }
+    ]
+}

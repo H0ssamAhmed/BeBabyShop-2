@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Caps & Accessories",
+        "discrption": "Suspendisse consequat sed velit amet commodo",
+        "srcImg": 1
+    },
+    {
+        "title": "Shoes & socks",
+        "discrption": "Suspendisse consequat sed velit amet commodo",
+        "srcImg": 2
+    },
+    {
+        "title": "Jackets & Coats",
+        "discrption": "Suspendisse consequat sed velit amet commodo",
+        "srcImg": 3
+    }
+]

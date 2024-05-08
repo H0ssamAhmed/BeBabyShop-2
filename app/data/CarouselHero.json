@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Our orange Collection",
+        "description": "Montes orci platea inceptos conubia mauris lacus facilisi tincidunt cras rutrum",
+        "imgSrc": "/assets/Carousel/babyshop2-home-pic1.webp"
+    },
+    {
+        "title": "Our yellow collection",
+        "description": "Finibus sagittis felis semper gravida euismo",
+        "imgSrc": "/assets/Carousel/babyshop2-home-pic2.webp"
+    },
+    {
+        "title": "Our casual collection",
+        "description": "Pellentesque netus aliquet dictum curae praesent",
+        "imgSrc": "/assets/Carousel/babyshop2-home-pic3.webp"
+    }
+]
