@@ -21,7 +21,7 @@ interface ItemType {
     size: string
 }
 
-const Header = ({ showCart, setShowCart, storedItems }: Showvalues) => {
+const Header = ({ showCart, setShowCart }: Showvalues) => {
     const { cart, setCart } = useContext(CartContext)
     const [totalPrice, setTotalPrice] = useState<number>(0);
 
