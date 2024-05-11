@@ -36,7 +36,7 @@ const Shop = () => {
             })
     }, [])
 
-    document.title = 'Shop - BeBabyShop 2'
+    // document.title = 'Shop - BeBabyShop 2'
     return (
         <>
             <Crumb two={{ text: "shop", slug: "/shop" }} />

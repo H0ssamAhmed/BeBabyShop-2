@@ -7,7 +7,7 @@ import {
     BreadcrumbSeparator,
 } from '@/components/ui/breadcrumb'
 import { cn } from '@/lib/utils'
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { GiPin } from 'react-icons/gi'
 import { TbPinnedOff } from 'react-icons/tb'
 interface CrumbProp {

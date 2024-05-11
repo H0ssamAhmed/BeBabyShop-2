@@ -31,7 +31,6 @@ const Cart = ({ showCart, setShowCart }: Showvalues) => {
 
   useEffect(() => setTotalPrice(cart.reduce((prev: any, curr: any) => prev + (curr.price * curr.quantity), 0)), [cart]);
   const handleRemove = (itemName: string) => {
-
     const newCart = cart?.filter((Item: any) => {
       return Item?.ProductName !== itemName
     })
@@ -41,7 +40,6 @@ const Cart = ({ showCart, setShowCart }: Showvalues) => {
   const handleNaviagation = (url: string) => {
     setShowCart(false)
     route.push(`/shop/products/${url}`)
-
   }
   return (
     <div className={`${showCart ? "translate-x-0 opacity-100" : 'translate-x-[400px] opacity-0'}  w-[400px] z-30 duration-700 fixed -right-6 top-0 h-full  

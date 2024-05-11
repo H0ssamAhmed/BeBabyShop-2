@@ -12,7 +12,7 @@ import {
 } from '@radix-ui/react-tooltip';
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { useState } from 'react'
+import React from 'react'
 import { FaLink } from 'react-icons/fa6';
 import { ImEnlarge } from 'react-icons/im';
 import PopOver from './popOver';
@@ -23,12 +23,10 @@ interface productProps {
   sizes: [{ size: string, price: number, colors: [{ name: string, hex: string, quantity: number, _id: string }] }],
   slug: string,
   Layout?: string
-
 }
 
-
 const CardProduct = ({ name, images, sizes, slug, Layout, description }: productProps) => {
-  const [selectedColor, setSelectedColor] = useState<string>('#');
+  const [selectedColor, setSelectedColor] = React.useState<string>('#');
 
   return (
     <div
@@ -38,6 +36,7 @@ const CardProduct = ({ name, images, sizes, slug, Layout, description }: product
         <AlertDialog>
           <div className='relative'>
             <AlertDialogTrigger asChild>
+
               <ImEnlarge width={24} height={24} className='hover:text-primary transition cursor-pointer' />
             </AlertDialogTrigger>
             <AlertDialogContent>
