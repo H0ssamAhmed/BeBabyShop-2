@@ -13,7 +13,8 @@ interface CarouselProps {
     data: string,
 }
 const BlogCarouselCard = ({ image, title, description, group, data }: CarouselProps) => {
-    document.title = 'Blog - BeBabyShop 2'
+    // document.title = 'Blog - BeBabyShop 2'
+
 
     return (
         <Link href={`/blog/${title.trim().split(' ').join('_')}`}>
