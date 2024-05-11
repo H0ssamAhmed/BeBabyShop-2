@@ -12,7 +12,7 @@
 
 # Hosting
 
-## This app is hosted on `vercel` you can see live version her [live](https://tech-trove-ten.vercel.app)
+## This app is hosted on `vercel` you can see live version her [live](https://be-baby-shop-2.vercel.app/)
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
