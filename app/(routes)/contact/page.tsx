@@ -2,13 +2,15 @@
 import Crumb from '@/app/_components/breadCrunb'
 import Desc from '@/app/_components/desc'
 import { Button } from '@/components/ui/button'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FaPhoneAlt } from 'react-icons/fa'
 import { FaClock } from 'react-icons/fa6'
 import { IoMail } from 'react-icons/io5'
 
 const Contact = () => {
-  document.title = 'Contact - BeBabyShop 2'
+  // useEffect(() => {
+  //   document.title = 'Contact - BeBabyShop 2'
+  // }, [])
 
   return (
     <div className='my-4'>

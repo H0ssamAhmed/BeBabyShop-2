@@ -36,17 +36,17 @@ const BeBabyShop = ({
     setShowNav(false)
   }
 
-  const Header = dynamic(() => import('../_components/Header'), {
-    ssr: false,
-  });
+  // const Header = dynamic(() => import('../_components/Header'), {
+  //   ssr: false,
+  // });
 
-  const Nav = dynamic(() => import('../_components/nav'), {
-    ssr: false,
-  });
+  // const Nav = dynamic(() => import('../_components/nav'), {
+  //   ssr: false,
+  // });
 
-  const Categories = dynamic(() => import('../_components/categories'), {
-    ssr: false,
-  });
+  // const Categories = dynamic(() => import('../_components/categories'), {
+  //   ssr: false,
+  // });
 
   const Cart = dynamic(() => import('../_components/Cart'), {
     ssr: false,

@@ -9,7 +9,7 @@ import Crumb from '@/app/_components/breadCrunb'
 import { Button } from '@/components/ui/button'
 import { IoIosArrowForward } from 'react-icons/io'
 const Page = () => {
-    document.title = 'About Us - BeBabyShop 2'
+    // document.title = 'About Us - BeBabyShop 2'
 
     return (
         <div>
