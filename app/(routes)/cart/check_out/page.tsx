@@ -17,7 +17,7 @@ const CheckOut = () => {
     setTotalPrice(cart.reduce((prev: any, curr: any) => prev + (curr.price * curr.quantity), 0))
     setTotalQuantity(cart.reduce((prev: any, curr: any) => prev + curr.quantity, 0))
   }, [cart])
-  document.title = 'Check Out - BeBabyShop 2'
+  // document.title = 'Check Out - BeBabyShop 2'
 
   return (
     <div>

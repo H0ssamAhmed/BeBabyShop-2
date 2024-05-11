@@ -48,7 +48,7 @@ const CartProducts = () => {
     setCart(restOfItems);
     localStorage.setItem('cartProducts', JSON.stringify(restOfItems))
   }
-  document.title = 'Cart - BeBabyShop 2'
+  // document.title = 'Cart - BeBabyShop 2'
 
   return (
     <div className='select-none'>
