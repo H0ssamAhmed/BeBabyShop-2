@@ -2,8 +2,8 @@
 import CardProduct from '@/app/_components/CardProduct'
 import Crumb from '@/app/_components/breadCrunb'
 import Skeletonloading from '@/app/_components/loading'
-import { useSearchParams } from 'next/navigation'
-import React, { useEffect, useState } from 'react'
+import { useParams, usePathname, useSearchParams } from 'next/navigation'
+import React, { Suspense, useEffect, useState } from 'react'
 
 
 interface productTypes {
@@ -16,7 +16,7 @@ interface productTypes {
 
 const Shop = () => {
     const [products, setProducts] = useState<[productTypes]>()
-    const params = useSearchParams()
+    const params = useSearchParams();
     const [loading, setLoading] = useState(true)
 
     useEffect(() => {
@@ -24,30 +24,34 @@ const Shop = () => {
             .then((res) => res.json())
             .then((data) => {
                 setProducts(data?.products);
+                console.log(data?.products);
                 setLoading(false)
             })
-    })
+
+    }, [params]);
 
     return (
-        <>
-            <Crumb
-                two={{ text: "shop", slug: "/shop" }}
-                three={{ text: params.get('category')?.split("-").join(' ') }}
-            />
-            <div className='container '>
-                {loading ?
-                    <Skeletonloading />
-                    :
-                    <div className='pt-4 grid grid-cols-1 gap-2 justify-center sm:grid-cols-3 md:grid-cols-4'>
-                        {products?.map((product, index) => {
-                            return (<div className=' border-gray-300 border rounded-sm' key={index}>
-                                <CardProduct name={product.name} images={product?.images} description={product.description} sizes={product.sizes} slug={product.slug} key={index} />
-                            </div>)
-                        })}
-                    </div>
-                }
-            </div>
-        </>
+        <Suspense fallback={<div>Loading...</div>}>
+            <>
+                <Crumb
+                    two={{ text: "shop", slug: "/shop" }}
+                    three={{ text: params.get('category')?.split("-").join(' ') }}
+                />
+                <div className='container '>
+                    {loading ?
+                        <Skeletonloading />
+                        :
+                        <div className='pt-4 grid grid-cols-1 gap-2 justify-center sm:grid-cols-3 md:grid-cols-4'>
+                            {products?.map((product, index) => {
+                                return (<div onClick={() => console.log(params)} className=' border-gray-300 border rounded-sm' key={index}>
+                                    <CardProduct name={product.name} images={product?.images} description={product.description} sizes={product.sizes} slug={product.slug} key={index} />
+                                </div>)
+                            })}
+                        </div>
+                    }
+                </div>
+            </>
+        </Suspense>
     )
 }
 
