@@ -25,7 +25,7 @@ const Shop = () => {
             .then((data) => {
                 setProducts(data?.products);
                 setLoading(false)
-            }).catch((error) => window.confirm(error))
+            })//.catch((error) => window.confirm(error))
 
     }, [searchParams]);
 
