@@ -8,6 +8,7 @@ import Footer from "../_components/footer";
 import Cart from "../_components/Cart";
 import { cn } from "@/lib/utils";
 import { CartContext } from "../_utils/cartContext";
+import dynamic from "next/dynamic";
 
 interface ItemType {
   ProductName: string,
@@ -35,6 +36,12 @@ const BeBabyShop = ({
     setShowNav(false)
   }
 
+  const Header = dynamic(() => import('../_components/Header'))
+  const Nav = dynamic(() => import('../_components/nav'))
+  const Categories = dynamic(() => import('../_components/categories'))
+  const Cart = dynamic(() => import('../_components/Cart'))
+  const NewsLetter = dynamic(() => import('../_components/newsLetter'))
+  const Footer = dynamic(() => import('../_components/footer'))
   return (
     <CartContext.Provider value={{ cart, setCart }}>
 
