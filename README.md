@@ -1,6 +1,6 @@
 # BeBabyShop-2
 
-## BeBabyShop-2 is e-commerce for baby clothe
+## Be Baby Shop 2 is an e-commerce for baby clothes
 
 # Features
 
