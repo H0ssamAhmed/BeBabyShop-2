@@ -36,12 +36,30 @@ const BeBabyShop = ({
     setShowNav(false)
   }
 
-  const Header = dynamic(() => import('../_components/Header'))
-  const Nav = dynamic(() => import('../_components/nav'))
-  const Categories = dynamic(() => import('../_components/categories'))
-  const Cart = dynamic(() => import('../_components/Cart'))
-  const NewsLetter = dynamic(() => import('../_components/newsLetter'))
-  const Footer = dynamic(() => import('../_components/footer'))
+  const Header = dynamic(() => import('../_components/Header'), {
+    ssr: false,
+  });
+
+  const Nav = dynamic(() => import('../_components/nav'), {
+    ssr: false,
+  });
+
+  const Categories = dynamic(() => import('../_components/categories'), {
+    ssr: false,
+  });
+
+  const Cart = dynamic(() => import('../_components/Cart'), {
+    ssr: false,
+  });
+
+  const NewsLetter = dynamic(() => import('../_components/newsLetter'), {
+    ssr: false,
+  });
+
+  const Footer = dynamic(() => import('../_components/footer'), {
+    ssr: false,
+  });
+
   return (
     <CartContext.Provider value={{ cart, setCart }}>
 
