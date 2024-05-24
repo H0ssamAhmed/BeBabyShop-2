@@ -10,10 +10,6 @@ import BlogCarouselData from '../data/BlogCarousel.json'
 import BlogCarouselCard from './blogCarouselCard'
 
 const BlogCarousel = () => {
-
-
-
-
     return (
         <Carousel>
             <CarouselContent>

@@ -16,7 +16,7 @@ interface productTypes {
 
 const Shop = () => {
     const [loading, setLoading] = useState<boolean>(true)
-    const [Layout, setLayout] = useState<string>('grid')
+    const [Layout, setLayout] = useState<string | null>('grid-cols-1 sm:grid-cols-2 lg:grid-cols-4')
     const [categoryFilter, setFilter] = useState<productTypes[]>([])
     const [allCategories, setAllCategories] = useState<productTypes[]>([])
     const [slug, setSlug] = useState<String>("dresses-and-suits")
@@ -36,7 +36,6 @@ const Shop = () => {
             })
     }, [])
 
-    // document.title = 'Shop - BeBabyShop 2'
     return (
         <>
             <Crumb two={{ text: "shop", slug: "/shop" }} />

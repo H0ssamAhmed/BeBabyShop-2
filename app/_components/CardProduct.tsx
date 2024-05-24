@@ -22,7 +22,7 @@ interface productProps {
   images: [{ secure_url: string, public_id: string, _id: string }],
   sizes: [{ size: string, price: number, colors: [{ name: string, hex: string, quantity: number, _id: string }] }],
   slug: string,
-  Layout?: string
+  Layout?: string | null
 }
 
 const CardProduct = ({ name, images, sizes, slug, Layout, description }: productProps) => {

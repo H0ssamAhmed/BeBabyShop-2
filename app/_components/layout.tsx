@@ -4,16 +4,22 @@ import { IoGridSharp } from 'react-icons/io5'
 import { TfiLayoutColumn2Alt } from 'react-icons/tfi'
 
 interface ProductsLayoutProps {
-    Layout: string,
-    setLayout: React.Dispatch<React.SetStateAction<string>>;
+    Layout: string | null,
+    setLayout: React.Dispatch<React.SetStateAction<string | null>>;
 }
 
 const ProductsLayout = ({ Layout, setLayout }: ProductsLayoutProps) => {
 
 
     useEffect(() => {
-        (localStorage.getItem('layout')) && setLayout(localStorage.getItem('layout') ?? "grid-cols-1 sm:grid-cols-2 lg:grid-cols-4")
+        localStorage.getItem('layout')
+            ? setLayout(localStorage.getItem('layout'))
+            : (
+                setLayout('grid-cols-1 sm:grid-cols-2 lg:grid-cols-4'),
+                localStorage.setItem('layout', 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-4')
+            );
     }, [])
+
     const handleGrid = (layout: string): void => {
         setLayout(layout)
         localStorage.setItem("layout", layout);
