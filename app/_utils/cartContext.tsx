@@ -21,7 +21,7 @@ interface CartContextType {
   removeFromCart?: (itemId: string) => void;
 }
 
-export const CartContext = createContext<any>(localStorage.getItem("cartProducts") || []);
+export const CartContext = createContext<any | undefined>(undefined);
 
 export const useCartProvider = (): {} => {
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
