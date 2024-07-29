@@ -6,8 +6,9 @@ import useCart from '@/hooks/useCart'
 import Image from 'next/image'
 import { cn } from '@/lib/utils'
 import { useParams } from 'next/navigation'
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { FiMinus, FiPlus } from 'react-icons/fi'
+import { CartContext } from '@/app/_utils/cartContext'
 
 interface productProps {
   name: string,
@@ -62,9 +63,8 @@ const ProductDetails = () => {
       })
   }
 
-  useEffect(() => {
-    console.log(params?.selectedProduct);
 
+  useEffect(() => {
     handleFetch(params?.selectedProduct)
   }, [params.selectedProduct])
 
@@ -93,11 +93,10 @@ const ProductDetails = () => {
     <div>
       <Crumb
         two={{ text: "shop", slug: "/shop" }}
-        three={{ text: product?.category?.name.toLocaleLowerCase(), slug: `/shop/products?category=${product?.category?.name.toLocaleLowerCase().split(' ').join('-')}` }}
-        four={{ text: params.selectedProduct.toString().split('-').join(' ') }}
+        three={{ text: product?.category?.name.toLocaleLowerCase(), slug: `/shop/products?category=${product?.category?.slug}` }}
+        four={{ text: product?.name }}
       />
 
-      {/* <button className=' bg-teal-500 p-8 text-center mx-auto'>Click</button> */}
 
       <div className='container'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mt-4'>

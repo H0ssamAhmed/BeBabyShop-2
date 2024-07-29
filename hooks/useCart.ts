@@ -1,3 +1,5 @@
+import { CartContext } from "@/app/_utils/cartContext"
+import { useContext } from "react"
 
 interface CartItems {
   ProductName?: string,
@@ -11,25 +13,27 @@ interface CartItems {
   colorName?: string
 }
 const useCart = () => {
+  const { cart, setCart } = useContext(CartContext)
+
   const addToCart = (product: CartItems) => {
     const storedData: string | null = window.localStorage.getItem('cartProducts');
     if (storedData !== null) {
       const oldItems: CartItems[] = JSON.parse(storedData);
       let isProductAlreadyInCart = false;
-
       for (let i = 0; i < oldItems.length; i++) {
         if (oldItems[i].ProductName === product.ProductName) {
           isProductAlreadyInCart = true;
           break;
         }
       }
-
       if (isProductAlreadyInCart) {
         window.alert('This item is already in your cart!');
       } else {
+        setCart([...oldItems, product])
         window.localStorage.setItem('cartProducts', JSON.stringify([...oldItems, product]));
       }
     } else {
+      setCart([product])
       window.localStorage.setItem('cartProducts', JSON.stringify([product]));
     }
   };

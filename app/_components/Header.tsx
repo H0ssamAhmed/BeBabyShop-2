@@ -27,15 +27,17 @@ const Header = ({ showCart, setShowCart }: Showvalues) => {
 
 
     useEffect(() => {
+        setTotalPrice(cart?.reduce((prev: any, curr: any) => prev + (curr.price * curr.quantity), 0));
         const stored = window.localStorage.getItem('cartProducts');
         if (stored) {
             setCart(JSON.parse(stored));
         }
         if (!stored) window.localStorage.setItem('cartProducts', JSON.stringify([]))
-    }, []);
+
+    }, [localStorage]);
+
     setTimeout(() => {
         setTotalPrice(cart?.reduce((prev: any, curr: any) => prev + (curr.price * curr.quantity), 0));
-
     }, 0);
 
 
