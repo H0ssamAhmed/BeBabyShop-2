@@ -34,7 +34,7 @@ const Header = ({ showCart, setShowCart }: Showvalues) => {
         }
         if (!stored) window.localStorage.setItem('cartProducts', JSON.stringify([]))
 
-    }, [localStorage]);
+    }, []);
 
     setTimeout(() => {
         setTotalPrice(cart?.reduce((prev: any, curr: any) => prev + (curr.price * curr.quantity), 0));
